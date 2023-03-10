@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 import Rating from "../components/Rating";
 
 const BookDetails = () => {
-  return
-   <>
+  return;
+  <>
+    <div></div>
   </>;
 };
 export default BookDetails;
