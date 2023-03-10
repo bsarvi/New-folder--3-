@@ -9,7 +9,7 @@ import {
   Button,
 } from "react-bootstrap";
 import ProfileToolTip from "./ProfileToolTip";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 import { useAuth } from "../context/AuthContext";
 
@@ -17,7 +17,6 @@ import { useAuth } from "../context/AuthContext";
 
 const Header = () => {
   const { currentUser, logout } = useAuth();
-
 
   const popover = (
     <Popover id="popover-basic">
@@ -35,7 +34,7 @@ const Header = () => {
     </Popover>
   );
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand>BookStore</Navbar.Brand>
 
@@ -43,8 +42,13 @@ const Header = () => {
         <Navbar.Collapse className="justify-content-end">
           {currentUser == null ? (
             <Nav>
-              <Nav.Link><Link to='/login'>Login</Link></Nav.Link>
-              <Nav.Link><Link to="/register">Register</Link></Nav.Link>
+              <Nav.Link>
+                <Link to="/login">Login</Link>
+              </Nav.Link>
+
+              <Nav.Link>
+                <Link to="/register">Register</Link>
+              </Nav.Link>
             </Nav>
           ) : (
             <OverlayTrigger

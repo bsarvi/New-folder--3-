@@ -1,0 +1,111 @@
+export const data = [
+  {
+    id: 1,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/cleancode.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678380413855",
+    name: "Clean Code",
+    author: "Robert C. Martin",
+    price: 3100,
+    rating: 4.5,
+    reviews: 5161,
+    miniDesc: "A Handbook of Agile Software Craftsmanship",
+    desc: "Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn’t have to be that way.",
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/programatic.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1678380414149",
+    name: "Pragmatic Programmer",
+    author: " David Thomas",
+    price: 902,
+    rating: 4.8,
+    reviews: 2361,
+    miniDesc:
+      "The: Your journey to mastery, 20th Anniversary Edition 2nd Edition",
+    desc: "Twenty years ago, the first edition of The Pragmatic Programmer completely changed the trajectory of my career. This new edition could do the same for yours.Mike Cohn, Author of Succeeding with Agile , Agile Estimating and Planning , and User Stories Applied",
+  },
+  {
+    id: 3,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678380413865",
+    name: "Cracking the Code Interview:",
+    author: "Gayle Laakmann McDowell",
+    price: 1800,
+    rating: 3.7,
+    reviews: 8195,
+    miniDesc: "189 Programming Questions and Solutions 6th Edition",
+    desc: "I am not a recruiter. I am a software engineer. And as such, I know what it's like to be asked to whip up brilliant algorithms on the spot and then write flawless code on a whiteboard. I've been through this as a candidate and as an interviewer.",
+  },
+  {
+    id: 4,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/71CHayc4-0L._AC_UY218_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678380414254",
+    name: "Design Patterns",
+    author: "Erich Gamma",
+    price: 1760,
+    rating: 4.1,
+    reviews: 2164,
+    miniDesc: "Elements of Reusable Object-Oriented Software",
+    desc: "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems.",
+  },
+  {
+    id: 5,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678380413859",
+    name: "Refactoring",
+    author: "John Brant",
+    price: 890,
+    rating: 3.9,
+    reviews: 365,
+    miniDesc: "Improving the Design of Existing Code",
+    desc: "Refactoring is about improving the design of existing code. It is the process of changing a software system in such a way that it does not alter the external behavior of the code, yet improves its internal structure. With refactoring you can even take a b",
+  },
+  {
+    id: 6,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/6.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678380413993",
+    name: "Head First Design Patterns",
+    author: "Erich Gamma",
+    price: 8240,
+    rating: 4.6,
+    reviews: 1653,
+    miniDesc: "A Brain Friendly Guide",
+    desc: "At any given moment, someone struggles with the same software design problems you have. And, chances are, someone else has already solved your problem. This edition of Head First Design Patterns—now updated for Java 8—shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software.",
+  },
+  {
+    id: 7,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/7.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678380414030",
+    name: "Introduction to Algorithms",
+    author: " Charles E. Leiserson ",
+    price: 1200,
+    rating: 4.9,
+    reviews: 2288,
+    miniDesc: "3rd Edition (The MIT Press) ",
+    desc: "The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor.",
+  },
+  {
+    id: 8,
+    imgUrl:
+      "https://ik.imagekit.io/y231jycfz/code2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678380413892",
+    name: "CODE COMPLETE",
+    author: "Steve Mcconnell",
+    price: 751,
+    rating: 4.2,
+    reviews: 978,
+    miniDesc: "Improving the Design of Existing Code",
+    desc: "Widely considered one of the best practical guides to programming, Steve McConnell’s original CODE COMPLETE has been helping developers write better software for more than a decade. Now this classic book has been fully updated and revised with leading-edge practices—and hundreds of new code samples—illustrating the art and science of software construction. Capturing the body of knowledge available from research, academia, and everyday commercial practice, McConnell synthesizes the most effective techniques and must-know principles into clear, pragmatic guidance.",
+  },
+  {
+    id: 9,
+    imgUrl:
+      " https://ik.imagekit.io/y231jycfz/41Y5RDBnKzL._SX404_BO1_204_203_200_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678441491165",
+    name: "Pro Git",
+    author: "Ben Straub ",
+    price: 640,
+    rating: 4.5,
+    reviews: 2299,
+    miniDesc: "Second Edition",
+    desc: "Pro Git (Second Edition) is your fully-updated guide to Git and its usage in the modern world. Git has come a long way since it was first developed by Linus Torvalds for Linux kernel development. It has taken the open source world by storm since its inception in 2005, and this book teaches you how to use it like a pro.",
+  },
+];
